@@ -122,8 +122,6 @@ var t = 1;
 x = tamanioX/2;
 y = tamanioY/2;
 
-
-
 function gameLoop () {
   window.requestAnimationFrame(gameLoop);
   renderLine();
@@ -222,21 +220,5 @@ document.getElementById('download').addEventListener('click', function() {
 }, false);
 
 </script>
-
-
-
 </body>
-
-<!-- tracking code -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108129718-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-108129718-1');
-</script>
-
-
 </html>
